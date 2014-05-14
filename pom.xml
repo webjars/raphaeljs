@@ -44,6 +44,13 @@
         <upstream.version>2.1.2</upstream.version>
         <upstream.url>https://raw.github.com/DmitryBaranovskiy/raphael/v${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <requirejs>
+            {
+                "paths": {
+                    "raphael": "raphael"
+                }
+            }
+        </requirejs>
     </properties>
     
     <build>
