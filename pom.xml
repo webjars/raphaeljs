@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>raphaeljs</artifactId>
-    <version>2.1.2-1-SNAPSHOT</version>
+    <version>2.1.2-1</version>
     <name>Raphaël</name>
     <description>WebJar for Raphaël</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/raphaeljs</url>
         <connection>scm:git:https://github.com/webjars/raphaeljs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/raphaeljs.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>raphaeljs-2.1.2-1</tag>
     </scm>
     
     <properties>
